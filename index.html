@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Speed Controller</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>UPLOAD YOUR VIDEO</h1>
+        <input type="file" id="upload" accept="video" >
+        <br>
+        <br>
+    
+        <video id="video" width="640" controls>
+          
+        </video>
+
+        <div class="controls">
+            <button onclick="setSpeed(0.5)">0.5x</button>
+            <button onclick="setSpeed(1)">1x (Normal)</button>
+            <button onclick="setSpeed(1.5)">1.5x</button>
+            <button onclick="setSpeed(2)">2x</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+    
+</body>
+</html>
