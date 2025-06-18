@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("pic.jpg"); /* Replace with your image filename */
+  background-size: cover;                  /* Make image cover entire screen */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;                       /* Make sure body takes full height */
+  padding: 20px;
+  color: white;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  
+   padding: 20px;
+  border-radius: 10px;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #86500abb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #b3710094;
+}
+
+h1{
+    color: #7d5e01;
+    font-family:'MyCustomFont';
+    font-size: 50px;
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('myfont.ttf') format('truetype');
+}
